@@ -6,7 +6,7 @@ x = 12
 
 
 def change_x():
-    x = "global"
+    global x
     x = 99
 
 
